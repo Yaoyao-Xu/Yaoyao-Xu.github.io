@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "yaoyao xu"
+title: "Yaoyao Xu"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,16 +10,14 @@ redirect_from:
 
 ## About Me
 
-I am a 3rd-year CS PhD student at the Chinese University of Hong Kong, Shenzhen, where I am fortunate to be advised by [Prof. Tianshu Yu](https://mypage.cuhk.edu.cn/academics/yutianshu/). My research focuses on graph-based machine learning and AI applications in scientific domains. 
+I am a 2rd-year CS PhD student at the Chinese University of Hong Kong, Shenzhen, where I am fortunate to be advised by [Prof. Tianshu Yu](https://mypage.cuhk.edu.cn/academics/yutianshu/). My research focuses on AI4Science. 
 
-Before my PhD, I obtained my M.S. in Data Science from the City University of Hong Kong under the supervision of [Dr. Ruocheng Guo](https://rguo12.github.io/), and my B.S. in Computer Science from Shandong University under the supervision of [Prof. Xuemeng Song](https://xuemengsong.github.io/).
+Before my PhD, I obtained my M.S. in Mechanical Engineering from the Columbia University, and my B.S. in Mechanical Engineering
+from Sichuang University and University of Pittsburgh.
 
 ## Research Interests
 
-- **Graph Augmented Intelligence**
-- **Efficient Graph Representation Learning**
 - **AI4Science**
-- **Important applications in the real world (recommendation systems, etc.)**
 
   
 
@@ -31,55 +29,24 @@ Before my PhD, I obtained my M.S. in Data Science from the City University of Ho
 
 **\* Equal contribution**
 
-**[The Underappreciated Power of Vision Models for Graph Structural Understanding](https://arxiv.org/pdf/2510.24788)**  
-**Xinjian Zhao\***, Wei Pang\*, Zhongkai Xue\*, Xiangru Jian\*, Lei Zhang, Yaoyao Xu, Xiaozhuang Song, Shu Wu, Tianshu Yu.  
-*Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
 **[Graph Learning with Distributional Edge Layouts](https://arxiv.org/abs/2402.16402)**  
-**Xinjian Zhao**, Chaolong Ying, Yaoyao Xu, Tianshu Yu  
+Xinjian Zhao, Chaolong Ying, **Yaoyao Xu**, Tianshu Yu  
 *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD**)*, 2025
 
 **[Rethinking Spectral Augmentation for Contrast-based Graph Self-Supervised Learning](https://openreview.net/pdf?id=HjpD5kpfa3)**  
-Xiangru Jian\*, **Xinjian Zhao\***, Wei Pang\*, Chaolong Ying, Yimu Wang, Yaoyao Xu, Tianshu Yu  
+Xiangru Jian\*, Xinjian Zhao\*, Wei Pang\*, Chaolong Ying, Yimu Wang, **Yaoyao Xu**, Tianshu Yu  
 *Transactions on Machine Learning Research (**TMLR**)*, 2025
 
 **[Boosting Protein Language Models with Negative Sample Mining](https://arxiv.org/pdf/2402.16346)**  
-Yaoyao Xu\*, **Xinjian Zhao\***, Xiaozhuang Song, Benyou Wang, Tianshu Yu  
+**Yaoyao Xu\***, Xinjian Zhao*, Xiaozhuang Song, Benyou Wang, Tianshu Yu  
 *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (**ECML-PKDD**)*, 2024
 
-**[Boosting Graph Pooling with Persistent Homology](https://arxiv.org/pdf/2402.16346)**  
-Chaolong Ying, **Xinjian Zhao**, Tianshu Yu  
-*Conference on Neural Information Processing Systems (**NeurIPS**)*, 2024
-
-### Preprints
-
-**[GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large Language Models on Graph-theoretic Tasks](https://arxiv.org/abs/2504.12764)**  
-Hao Xu\*, Xiangru Jian\*, **Xinjian Zhao\***, Wei Pang\*, Chao Zhang, Suyucheng Wang, Qixin Zhang, Zhengyuan Dong, Joao Monteiro, Bang Liu, Qiuzhuang Sun, Tianshu Yu
-
-**[Embedding in Recommender Systems: A Survey](https://arxiv.org/pdf/2310.18608.pdf)**  
-Maolin Wang\*, **Xinjian Zhao\***, Wanyu Wang\*, Sheng Zhang, Jiansheng Li, Bowen Yu, Binhao Wang, Shucheng Zhou, Dawei Yin, Qing Li, Ruocheng Guo, Xiangyu Zhao
-[📝 Paper List](https://github.com/Applied-Machine-Learning-Lab/Embedding-in-Recommender-Systems)
-
-**[Adversarial Curriculum Graph Contrastive Learning with Pair-wise Augmentation](https://arxiv.org/abs/2402.10468)**  
-**Xinjian Zhao**, Liang Zhang, Yang Liu, Ruocheng Guo, Xiangyu Zhao
-
-**[AOT\*: Efficient Synthesis Planning via LLM-Empowered AND-OR Tree Search](https://arxiv.org/abs/2509.20988)**  
-Xiaozhuang Song, Xuanhao Pan, **Xinjian Zhao**, Hangting Ye, Shufei Zhang, Jian Tang, Tianshu Yu
 
 
 
-## Mentorships
-Co-supervision with Prof. Tianshu Yu
 
-**Undergraduate Students**
 
-- **[Zhongkai Xue](https://zhongkai-xue.com/)** (2024.12-Present) - B.S. in Financial Engineering, CUHK-Shenzhen.
-  - **Achievements**: • NeurIPS 2025 • Research Intern at ByteDance
-  - **Next position**: CS PhD student at UCAS
-
-- **[Zhixuan Yu]()** -  B.S. in Computer Science, CUHK-Shenzhen.
-  
----
 
 
 
