@@ -49,8 +49,8 @@ Xiangru Jian\*, Xinjian Zhao\*, Wei Pang\*, Chaolong Ying, Yimu Wang, **Yaoyao X
 **Yaoyao Xu\***, Xinjian Zhao*, Xiaozhuang Song, Benyou Wang, Tianshu Yu  
 *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (**ECML-PKDD**)*, 2024
 
-**Demystify the Secret Function in Protein Sequence via Conditional Diffusion Models**
-**Yaoyao Xu**, Xuxi Chen, Tong Wang, Huan He, Tianlong Chen, Manolis Kellis
+**[Demystify the Secret Function in Protein Sequence via Conditional Diffusion Models]()**  
+**Yaoyao Xu**, Xuxi Chen, Tong Wang, Huan He, Tianlong Chen, Manolis Kellis  
 *ICLR Workshop **GEM***, 2024
 
 
