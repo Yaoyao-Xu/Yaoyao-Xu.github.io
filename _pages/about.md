@@ -18,6 +18,7 @@ from Sichuang University and University of Pittsburgh.
 ## Research Interests
 
 - **AI4Science**
+- **GNNs**
 
   
 
@@ -29,13 +30,15 @@ from Sichuang University and University of Pittsburgh.
 
 **\* Equal contribution**
 
+
+**[TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles](https://openreview.net/pdf?id=0wV5HR7M4P)**  
+**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen  
+*Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
+
 **[The Underappreciated Power of Vision Models for Graph Structural Understanding](https://arxiv.org/pdf/2510.24788)**  
 Xinjian Zhao\*, Wei Pang\*, Zhongkai Xue\*, Xiangru Jian\*, Lei Zhang, **Yaoyao Xu**, Xiaozhuang Song, Shu Wu, Tianshu Yu.  
 *Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
-**[TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles]()**  
-**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen  
-*Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
 **[Graph Learning with Distributional Edge Layouts](https://arxiv.org/abs/2402.16402)**  
 Xinjian Zhao, Chaolong Ying, **Yaoyao Xu**, Tianshu Yu  
