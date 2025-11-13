@@ -33,7 +33,7 @@ from Sichuang University and University of Pittsburgh.
 Xinjian Zhao\*, Wei Pang\*, Zhongkai Xue\*, Xiangru Jian\*, Lei Zhang, **Yaoyao Xu**, Xiaozhuang Song, Shu Wu, Tianshu Yu.  
 *Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
-**[TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles]()**
+**[TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles]()**  
 **Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen
 *Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
