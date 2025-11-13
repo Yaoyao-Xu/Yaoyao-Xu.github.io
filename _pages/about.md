@@ -34,7 +34,7 @@ Xinjian Zhao\*, Wei Pang\*, Zhongkai Xue\*, Xiangru Jian\*, Lei Zhang, **Yaoyao 
 *Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
 **[TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles]()**  
-**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen
+**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen  
 *Conference on Neural Information Processing Systems (**NeurIPS**)*, 2025
 
 **[Graph Learning with Distributional Edge Layouts](https://arxiv.org/abs/2402.16402)**  
