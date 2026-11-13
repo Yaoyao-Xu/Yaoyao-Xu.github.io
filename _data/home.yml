@@ -1,26 +1,34 @@
-# Homepage research directions. Publication details live in home_publications.yml.
+# Research framing follows the thesis proposal: representation, simulation, design.
+# Feature first-author work here; the full publication list retains collaborations.
 research:
   - number: "01"
-    title: AI for Science
-    subtitle: Protein modeling
-    description: Protein conformational ensemble generation, protein language models, and conditional diffusion for protein sequences.
+    title: Representation
+    subtitle: Proteins and chemical reasoning
+    description: Learning task-aware protein representations and organizing chemical reasoning capabilities through negative sample mining and multi-teacher distillation.
     topics:
-      - Protein generation
       - Protein language models
-      - Diffusion models
+      - Task-aware learning
+      - Chemical reasoning
+    papers:
+      - protein-lm
+      - chemopd
+  - number: "02"
+    title: Simulation
+    subtitle: Multiscale protein dynamics
+    description: Developing generative models for ordered protein conformational dynamics across temporal scales, with an interest in controllable and uncertainty-aware simulation.
+    topics:
+      - Protein dynamics
+      - Multiscale generation
+      - Controllable simulation
     papers:
       - tempo
-      - protein-lm
-      - protein-diffusion
-  - number: "02"
-    title: Graph Learning
-    subtitle: Structure and representation
-    description: Learning about graph structure through graph neural networks, visual models, and self-supervised learning.
+  - number: "03"
+    title: Design
+    subtitle: Closed-loop molecular discovery
+    description: Using semantic language-model surrogates and iterative oracle feedback to guide molecular inverse design, and exploring how simulation and chemical reasoning can inform design decisions.
     topics:
-      - Graph neural networks
-      - Structural understanding
-      - Self-supervised learning
+      - Molecular inverse design
+      - Semantic surrogates
+      - Feedback-guided optimization
     papers:
-      - vision-graphs
-      - distributional-layouts
-      - spectral-augmentation
+      - closed-loop-molecular-design

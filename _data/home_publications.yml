@@ -1,5 +1,72 @@
-# Keep author order and equal-contribution marks from the original homepage.
+# Preserve original entries; new metadata verified against arXiv and IJCAI (2026-11-13).
+# Keep author order and only use confirmed equal-contribution marks.
 # Omit paper_url when a public link is not available.
+# Graph Interplay (arXiv:2410.04061) is withdrawn and intentionally excluded.
+# Older spectral-augmentation titles (arXiv:2405.19600) refer to the existing TMLR entry.
+- id: latent-jepa
+  title: "Latent JEPA: Abstract Future Prediction for Latent Reasoning in Chemistry"
+  authors: "Xinjian Zhao, **Yaoyao Xu**, Xuemin Chen, Xiaozhuang Song, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2610.01947
+  topic: Latent Chemical Reasoning
+
+- id: coverage-before-control
+  title: "Coverage Before Control: Route-Instruction Grounding and Steering for Controllable Retrosynthesis"
+  authors: "Xuemin Chen, Xiaozhuang Song, Xinjian Zhao, **Yaoyao Xu**, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2609.39955
+  topic: Controllable Retrosynthesis
+
+- id: retrogef
+  title: "RetroGEF: Dynamic Graph Edit Flow for Single-Step Retrosynthesis"
+  authors: "Xiaozhuang Song, Xuemin Chen, Xinjian Zhao, **Yaoyao Xu**, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2609.38484
+  topic: Retrosynthesis
+
+- id: chemopd
+  title: "ChemOPD: Multi-Teacher On-Policy Distillation for Multi-Task Chemical Reasoning"
+  authors: "**Yaoyao Xu**, Xinjian Zhao, Xiaozhuang Song, Xuemin Chen, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2609.33838
+  topic: Chemical Reasoning
+
+- id: vision-graph-survey
+  title: "When Vision Meets Graphs: A Survey on Graph Reasoning and Learning"
+  authors: "Xinjian Zhao, Wei Pang, Zhixuan Yu, Xiangru Jian, Xiaozhuang Song, **Yaoyao Xu**, Zhongkai Xue, Dingshuo Chen, Shu Wu, Philip Torr, Tianshu Yu"
+  venue: International Joint Conference on Artificial Intelligence
+  venue_short: IJCAI
+  year: 2026
+  paper_url: https://www.ijcai.org/proceedings/2026/898
+  topic: Visual Graph Learning
+
+- id: molemb
+  title: "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models"
+  authors: "Xinjian Zhao, Xiangru Jian, **Yaoyao Xu**, Xiaozhuang Song, Wei Pang, Lei Bai, Tianshu Yu"
+  venue: ICML Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences
+  venue_short: FM4LS @ ICML
+  year: 2026
+  paper_url: https://arxiv.org/abs/2608.23646
+  topic: Molecular Representation
+  note: Non-archival workshop
+
+- id: closed-loop-molecular-design
+  title: Closed-Loop Molecular Inverse Design with Semantic LLM Surrogates
+  authors: "**Yaoyao Xu**, Xinjian Zhao, Xiaozhuang Song, Lei Bai, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2608.22967
+  topic: Molecular Inverse Design
+
 - id: tempo
   title: "TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles"
   authors: "**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen"

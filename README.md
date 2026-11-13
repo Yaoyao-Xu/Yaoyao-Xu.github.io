@@ -6,8 +6,8 @@
 日常更新位置：
 
 - `_pages/about.md`：个人简介。
-- `_config.yml` 中的 `author`：姓名、头像、邮箱及学术主页；`github` 和 `linkedin` 填用户名或个人资料标识，不填完整网址。
-- `_data/home.yml`：研究方向、标签和对应论文的 `id`。
+- `_config.yml` 中的 `author`：姓名、头像、邮箱及学术主页；`github` 填用户名，不填完整网址。
+- `_data/home.yml`：按 thesis proposal 的表征、模拟、设计主线介绍研究方向、标签和对应论文的 `id`；重点展示一作工作，合作文章保留在完整论文列表中。
 - `_data/home_publications.yml`：论文标题、作者、会议、年份和链接。作者支持 Markdown 加粗和 `\*` 共同一作标记；没有链接时省略 `paper_url`。
 - `assets/css/research-home.css`：首页样式和手机适配。
 - `_layouts/research-home.html`、`assets/js/research-home.js`：首页结构及手机导航。
