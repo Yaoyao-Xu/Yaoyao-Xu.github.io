@@ -1,0 +1,54 @@
+# Keep author order and equal-contribution marks from the original homepage.
+# Omit paper_url when a public link is not available.
+- id: tempo
+  title: "TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles"
+  authors: "**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen"
+  venue: Conference on Neural Information Processing Systems
+  venue_short: NeurIPS
+  year: 2025
+  paper_url: https://openreview.net/pdf?id=0wV5HR7M4P
+  topic: Protein Generation
+
+- id: vision-graphs
+  title: The Underappreciated Power of Vision Models for Graph Structural Understanding
+  authors: 'Xinjian Zhao\*, Wei Pang\*, Zhongkai Xue\*, Xiangru Jian\*, Lei Zhang, **Yaoyao Xu**, Xiaozhuang Song, Shu Wu, Tianshu Yu'
+  venue: Conference on Neural Information Processing Systems
+  venue_short: NeurIPS
+  year: 2025
+  paper_url: https://arxiv.org/pdf/2510.24788
+  topic: Graph Structure
+
+- id: distributional-layouts
+  title: Graph Learning with Distributional Edge Layouts
+  authors: "Xinjian Zhao, Chaolong Ying, **Yaoyao Xu**, Tianshu Yu"
+  venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  venue_short: KDD
+  year: 2025
+  paper_url: https://arxiv.org/abs/2402.16402
+  topic: Graph Representation
+
+- id: spectral-augmentation
+  title: Rethinking Spectral Augmentation for Contrast-based Graph Self-Supervised Learning
+  authors: 'Xiangru Jian\*, Xinjian Zhao\*, Wei Pang\*, Chaolong Ying, Yimu Wang, **Yaoyao Xu**, Tianshu Yu'
+  venue: Transactions on Machine Learning Research
+  venue_short: TMLR
+  year: 2025
+  paper_url: https://openreview.net/pdf?id=HjpD5kpfa3
+  topic: Graph Self-Supervised Learning
+
+- id: protein-lm
+  title: Boosting Protein Language Models with Negative Sample Mining
+  authors: '**Yaoyao Xu\***, Xinjian Zhao\*, Xiaozhuang Song, Benyou Wang, Tianshu Yu'
+  venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  venue_short: ECML-PKDD
+  year: 2024
+  paper_url: https://arxiv.org/pdf/2402.16346
+  topic: Protein Language Models
+
+- id: protein-diffusion
+  title: Demystify the Secret Function in Protein Sequence via Conditional Diffusion Models
+  authors: "**Yaoyao Xu**, Xuxi Chen, Tong Wang, Huan He, Tianlong Chen, Manolis Kellis"
+  venue: ICLR Workshop GEM
+  venue_short: ICLR Workshop GEM
+  year: 2024
+  topic: Protein Diffusion

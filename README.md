@@ -1,3 +1,29 @@
+# Yaoyao Xu · Personal Homepage
+
+首页使用独立的 `research-home` 布局，兼容当前 Jekyll / GitHub Pages 配置。
+页面结构参考 [Xinjian Zhao 的公开主页](https://xinjian-zhao.github.io/)，个人简介、照片、联系方式和论文以本仓库内容为准。
+
+日常更新位置：
+
+- `_pages/about.md`：个人简介。
+- `_config.yml` 中的 `author`：姓名、头像、邮箱及学术主页；`github` 和 `linkedin` 填用户名或个人资料标识，不填完整网址。
+- `_data/home.yml`：研究方向、标签和对应论文的 `id`。
+- `_data/home_publications.yml`：论文标题、作者、会议、年份和链接。作者支持 Markdown 加粗和 `\*` 共同一作标记；没有链接时省略 `paper_url`。
+- `assets/css/research-home.css`：首页样式和手机适配。
+- `_layouts/research-home.html`、`assets/js/research-home.js`：首页结构及手机导航。
+
+安装依赖并本地预览：
+
+```bash
+bundle install
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
+
+打开 `http://localhost:4000`。修改 `_config.yml` 后需要重启服务。
+完整构建检查使用 `bundle exec jekyll build`。
+
+---
+
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.

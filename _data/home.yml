@@ -1,0 +1,26 @@
+# Homepage research directions. Publication details live in home_publications.yml.
+research:
+  - number: "01"
+    title: AI for Science
+    subtitle: Protein modeling
+    description: Protein conformational ensemble generation, protein language models, and conditional diffusion for protein sequences.
+    topics:
+      - Protein generation
+      - Protein language models
+      - Diffusion models
+    papers:
+      - tempo
+      - protein-lm
+      - protein-diffusion
+  - number: "02"
+    title: Graph Learning
+    subtitle: Structure and representation
+    description: Learning about graph structure through graph neural networks, visual models, and self-supervised learning.
+    topics:
+      - Graph neural networks
+      - Structural understanding
+      - Self-supervised learning
+    papers:
+      - vision-graphs
+      - distributional-layouts
+      - spectral-augmentation
