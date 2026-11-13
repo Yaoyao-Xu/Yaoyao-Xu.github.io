@@ -6,9 +6,11 @@
 日常更新位置：
 
 - `_pages/about.md`：个人简介。
+- `files/Yaoyao_Xu_CV.pdf`：编译好的 CV PDF，首页 CV 按钮位于 Google Scholar 前。更新简历时覆盖此文件即可；更换路径时同步修改 `_config.yml` 的 `author.cv`。
 - `_config.yml` 中的 `author`：姓名、头像、邮箱及学术主页；`github` 填用户名，不填完整网址。
 - `_data/home.yml`：按 thesis proposal 的表征、模拟、设计主线介绍研究方向、标签和对应论文的 `id`；重点展示一作工作，合作文章保留在完整论文列表中。
 - `_data/home_publications.yml`：论文标题、作者、会议、年份和链接。作者支持 Markdown 加粗和 `\*` 共同一作标记；没有链接时省略 `paper_url`。
+  `authorship` 填 `first`（一作，含共同一作）或 `collaborative`（合作文章）；页面先显示一作组，再显示合作组，各组按 `sort_date` 从近到远自动排序。`sort_date` 使用引号包裹的 `YYYY-MM-DD`，只确认年月或年份时可填 `YYYY-MM` 或 `YYYY`；日期精度相同的文章无需再区分先后，只确认年份的条目排在该年已确认日期的条目之后。`status` 可写投稿状态，例如 `Under review at Nature Communications`，`note` 可说明扩刊关系。
 - `assets/css/research-home.css`：首页样式和手机适配。
 - `_layouts/research-home.html`、`assets/js/research-home.js`：首页结构及手机导航。
 

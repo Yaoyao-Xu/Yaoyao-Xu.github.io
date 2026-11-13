@@ -3,7 +3,82 @@
 # Omit paper_url when a public link is not available.
 # Graph Interplay (arXiv:2410.04061) is withdrawn and intentionally excluded.
 # Older spectral-augmentation titles (arXiv:2405.19600) refer to the existing TMLR entry.
+# Authorship groups: first (including co-first) or collaborative.
+# sort_date is a quoted YYYY, YYYY-MM, or YYYY-MM-DD at the known precision.
+# Published entries use venue timing; preprints use posting dates. Year-only dates sort after dated entries in that year.
+# The extended TEMPO title/authors match the thesis proposal; review status is supplied by the author.
+
+- id: chemopd
+  authorship: first
+  sort_date: "2026-09-27"
+  title: "ChemOPD: Multi-Teacher On-Policy Distillation for Multi-Task Chemical Reasoning"
+  authors: "**Yaoyao Xu**, Xinjian Zhao, Xiaozhuang Song, Xuemin Chen, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2609.33838
+  topic: Chemical Reasoning
+
+- id: closed-loop-molecular-design
+  authorship: first
+  sort_date: "2026-08-24"
+  title: Closed-Loop Molecular Inverse Design with Semantic LLM Surrogates
+  authors: "**Yaoyao Xu**, Xinjian Zhao, Xiaozhuang Song, Lei Bai, Tianshu Yu"
+  venue: arXiv preprint
+  venue_short: arXiv
+  year: 2026
+  paper_url: https://arxiv.org/abs/2608.22967
+  topic: Molecular Inverse Design
+
+- id: tempo-extended
+  authorship: first
+  # Year confirmed by thesis proposal; replace with YYYY-MM-DD once the posting date is confirmed.
+  sort_date: "2026"
+  title: Multiscale autoregressive modeling generates ordered protein conformational trajectories
+  authors: "**Yaoyao Xu**, Yu Liu, Tianshu Yu, Mingchen Chen"
+  venue: Research Square preprint
+  venue_short: Research Square
+  year: 2026
+  paper_url: https://www.researchsquare.com/article/rs-11163218/v1
+  topic: Protein Dynamics
+  status: Under review at Nature Communications
+  note: Extended version of TEMPO (NeurIPS 2025)
+
+- id: tempo
+  authorship: first
+  sort_date: "2025-12"
+  title: "TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles"
+  authors: "**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen"
+  venue: Conference on Neural Information Processing Systems
+  venue_short: NeurIPS
+  year: 2025
+  paper_url: https://openreview.net/pdf?id=0wV5HR7M4P
+  topic: Protein Generation
+
+- id: protein-lm
+  authorship: first
+  sort_date: "2024-09"
+  title: Boosting Protein Language Models with Negative Sample Mining
+  authors: '**Yaoyao Xu\***, Xinjian Zhao\*, Xiaozhuang Song, Benyou Wang, Tianshu Yu'
+  venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+  venue_short: ECML-PKDD
+  year: 2024
+  paper_url: https://arxiv.org/abs/2405.17902
+  topic: Protein Language Models
+
+- id: protein-diffusion
+  authorship: first
+  sort_date: "2024-05"
+  title: Demystify the Secret Function in Protein Sequence via Conditional Diffusion Models
+  authors: "**Yaoyao Xu**, Xuxi Chen, Tong Wang, Huan He, Tianlong Chen, Manolis Kellis"
+  venue: ICLR Workshop GEM
+  venue_short: ICLR Workshop GEM
+  year: 2024
+  topic: Protein Diffusion
+
 - id: latent-jepa
+  authorship: collaborative
+  sort_date: "2026-10-01"
   title: "Latent JEPA: Abstract Future Prediction for Latent Reasoning in Chemistry"
   authors: "Xinjian Zhao, **Yaoyao Xu**, Xuemin Chen, Xiaozhuang Song, Tianshu Yu"
   venue: arXiv preprint
@@ -13,6 +88,8 @@
   topic: Latent Chemical Reasoning
 
 - id: coverage-before-control
+  authorship: collaborative
+  sort_date: "2026-09-30"
   title: "Coverage Before Control: Route-Instruction Grounding and Steering for Controllable Retrosynthesis"
   authors: "Xuemin Chen, Xiaozhuang Song, Xinjian Zhao, **Yaoyao Xu**, Tianshu Yu"
   venue: arXiv preprint
@@ -22,6 +99,8 @@
   topic: Controllable Retrosynthesis
 
 - id: retrogef
+  authorship: collaborative
+  sort_date: "2026-09-29"
   title: "RetroGEF: Dynamic Graph Edit Flow for Single-Step Retrosynthesis"
   authors: "Xiaozhuang Song, Xuemin Chen, Xinjian Zhao, **Yaoyao Xu**, Tianshu Yu"
   venue: arXiv preprint
@@ -30,25 +109,9 @@
   paper_url: https://arxiv.org/abs/2609.38484
   topic: Retrosynthesis
 
-- id: chemopd
-  title: "ChemOPD: Multi-Teacher On-Policy Distillation for Multi-Task Chemical Reasoning"
-  authors: "**Yaoyao Xu**, Xinjian Zhao, Xiaozhuang Song, Xuemin Chen, Tianshu Yu"
-  venue: arXiv preprint
-  venue_short: arXiv
-  year: 2026
-  paper_url: https://arxiv.org/abs/2609.33838
-  topic: Chemical Reasoning
-
-- id: vision-graph-survey
-  title: "When Vision Meets Graphs: A Survey on Graph Reasoning and Learning"
-  authors: "Xinjian Zhao, Wei Pang, Zhixuan Yu, Xiangru Jian, Xiaozhuang Song, **Yaoyao Xu**, Zhongkai Xue, Dingshuo Chen, Shu Wu, Philip Torr, Tianshu Yu"
-  venue: International Joint Conference on Artificial Intelligence
-  venue_short: IJCAI
-  year: 2026
-  paper_url: https://www.ijcai.org/proceedings/2026/898
-  topic: Visual Graph Learning
-
 - id: molemb
+  authorship: collaborative
+  sort_date: "2026-08-24"
   title: "MolEmb: Multimodal Large Language Models Can Be Strong Molecular Embedding Models"
   authors: "Xinjian Zhao, Xiangru Jian, **Yaoyao Xu**, Xiaozhuang Song, Wei Pang, Lei Bai, Tianshu Yu"
   venue: ICML Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences
@@ -58,25 +121,20 @@
   topic: Molecular Representation
   note: Non-archival workshop
 
-- id: closed-loop-molecular-design
-  title: Closed-Loop Molecular Inverse Design with Semantic LLM Surrogates
-  authors: "**Yaoyao Xu**, Xinjian Zhao, Xiaozhuang Song, Lei Bai, Tianshu Yu"
-  venue: arXiv preprint
-  venue_short: arXiv
+- id: vision-graph-survey
+  authorship: collaborative
+  sort_date: "2026-08"
+  title: "When Vision Meets Graphs: A Survey on Graph Reasoning and Learning"
+  authors: "Xinjian Zhao, Wei Pang, Zhixuan Yu, Xiangru Jian, Xiaozhuang Song, **Yaoyao Xu**, Zhongkai Xue, Dingshuo Chen, Shu Wu, Philip Torr, Tianshu Yu"
+  venue: International Joint Conference on Artificial Intelligence
+  venue_short: IJCAI
   year: 2026
-  paper_url: https://arxiv.org/abs/2608.22967
-  topic: Molecular Inverse Design
-
-- id: tempo
-  title: "TEMPO: Temporal Multi-scale Autoregressive Generation of Protein Conformational Ensembles"
-  authors: "**Yaoyao Xu**, Di Wang, Zihan Zhou, Tianshu Yu, Mingchen Chen"
-  venue: Conference on Neural Information Processing Systems
-  venue_short: NeurIPS
-  year: 2025
-  paper_url: https://openreview.net/pdf?id=0wV5HR7M4P
-  topic: Protein Generation
+  paper_url: https://www.ijcai.org/proceedings/2026/898
+  topic: Visual Graph Learning
 
 - id: vision-graphs
+  authorship: collaborative
+  sort_date: "2025-12"
   title: The Underappreciated Power of Vision Models for Graph Structural Understanding
   authors: 'Xinjian Zhao\*, Wei Pang\*, Zhongkai Xue\*, Xiangru Jian\*, Lei Zhang, **Yaoyao Xu**, Xiaozhuang Song, Shu Wu, Tianshu Yu'
   venue: Conference on Neural Information Processing Systems
@@ -86,6 +144,8 @@
   topic: Graph Structure
 
 - id: distributional-layouts
+  authorship: collaborative
+  sort_date: "2025-02"
   title: Graph Learning with Distributional Edge Layouts
   authors: "Xinjian Zhao, Chaolong Ying, **Yaoyao Xu**, Tianshu Yu"
   venue: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
@@ -95,6 +155,8 @@
   topic: Graph Representation
 
 - id: spectral-augmentation
+  authorship: collaborative
+  sort_date: "2025-02"
   title: Rethinking Spectral Augmentation for Contrast-based Graph Self-Supervised Learning
   authors: 'Xiangru Jian\*, Xinjian Zhao\*, Wei Pang\*, Chaolong Ying, Yimu Wang, **Yaoyao Xu**, Tianshu Yu'
   venue: Transactions on Machine Learning Research
@@ -102,20 +164,3 @@
   year: 2025
   paper_url: https://openreview.net/pdf?id=HjpD5kpfa3
   topic: Graph Self-Supervised Learning
-
-- id: protein-lm
-  title: Boosting Protein Language Models with Negative Sample Mining
-  authors: '**Yaoyao Xu\***, Xinjian Zhao\*, Xiaozhuang Song, Benyou Wang, Tianshu Yu'
-  venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
-  venue_short: ECML-PKDD
-  year: 2024
-  paper_url: https://arxiv.org/pdf/2402.16346
-  topic: Protein Language Models
-
-- id: protein-diffusion
-  title: Demystify the Secret Function in Protein Sequence via Conditional Diffusion Models
-  authors: "**Yaoyao Xu**, Xuxi Chen, Tong Wang, Huan He, Tianlong Chen, Manolis Kellis"
-  venue: ICLR Workshop GEM
-  venue_short: ICLR Workshop GEM
-  year: 2024
-  topic: Protein Diffusion

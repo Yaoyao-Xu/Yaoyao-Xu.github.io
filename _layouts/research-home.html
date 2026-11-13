@@ -32,7 +32,8 @@
           <h1 id="intro-title">{{ site.author.name }}</h1>
           <div class="biography">{{ content }}</div>
           <div class="profile-links" aria-label="Academic profiles">
-            <a class="button button-primary" href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="{{ site.author.cv | relative_url }}" aria-label="Curriculum vitae (PDF)">CV <span aria-hidden="true">↗</span></a>
+            <a class="button" href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a>
             <a class="button" href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>
             <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
           </div>
@@ -73,20 +74,30 @@
           <a class="text-link" href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a>
         </div>
         <p class="publication-note">* denotes equal contribution.</p>
-        <ol class="publication-list">
-          {% for paper in site.data.home_publications %}
+        {% assign authorship_groups = 'first,collaborative' | split: ',' %}
+        {% assign publication_index = 0 %}
+        {% for authorship in authorship_groups %}
+        {% assign ordered_papers = site.data.home_publications | where: 'authorship', authorship | sort: 'sort_date' | reverse %}
+        <section class="publication-group" aria-labelledby="{{ authorship }}-papers-title">
+          <h3 id="{{ authorship }}-papers-title" class="publication-group-title">{% if authorship == 'first' %}First-author Papers{% else %}Collaborative Papers{% endif %}</h3>
+        <ol class="publication-list" start="{{ publication_index | plus: 1 }}">
+          {% for paper in ordered_papers %}
+          {% assign publication_index = publication_index | plus: 1 %}
           <li id="paper-{{ paper.id }}" class="publication">
-            <span class="publication-number" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+            <span class="publication-number" aria-hidden="true">{% if publication_index < 10 %}0{% endif %}{{ publication_index }}</span>
             <article class="publication-body" aria-labelledby="title-{{ paper.id }}">
               <div class="publication-meta"><span>{{ paper.topic }}</span><span class="venue-badge">{{ paper.venue_short }} {{ paper.year }}</span></div>
-              <h3 id="title-{{ paper.id }}">{% if paper.paper_url %}<a href="{{ paper.paper_url | escape }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+              <h4 id="title-{{ paper.id }}">{% if paper.paper_url %}<a href="{{ paper.paper_url | escape }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h4>
               <div class="publication-authors">{{ paper.authors | markdownify }}</div>
               <p class="publication-venue">{{ paper.venue }}{% unless paper.venue == paper.venue_short %} ({{ paper.venue_short }}){% endunless %}, {{ paper.year }}{% if paper.note %} · {{ paper.note }}{% endif %}</p>
+              {% if paper.status %}<p class="publication-status">{{ paper.status }}</p>{% endif %}
               {% if paper.paper_url %}<a class="paper-link" href="{{ paper.paper_url | escape }}" aria-label="Read paper: {{ paper.title | escape }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
             </article>
           </li>
           {% endfor %}
         </ol>
+        </section>
+        {% endfor %}
       </section>
 
       <section id="contact" class="contact-section section-block" aria-labelledby="contact-title">

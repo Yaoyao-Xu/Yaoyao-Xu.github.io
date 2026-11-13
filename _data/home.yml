@@ -21,6 +21,7 @@ research:
       - Multiscale generation
       - Controllable simulation
     papers:
+      - tempo-extended
       - tempo
   - number: "03"
     title: Design
