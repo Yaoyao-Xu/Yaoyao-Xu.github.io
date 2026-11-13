@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yaoyao Xu"
+title: "Yaoyao Xu (胥瑶瑶)"
 excerpt: "CS PhD student at CUHK-Shenzhen. Learning to represent, simulate, and design for scientific discovery in protein and chemical systems."
 layout: research-home
 author_profile: false
